@@ -1,0 +1,81 @@
+/* Font imports */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap");
+
+/* Colors */
+
+:root {
+  /* Primary */
+
+  /* CTA text */
+  --lightRed: hsl(356, 100%, 66%);
+  /* CTA hover background */
+  --veryLightRed: hsl(355, 100%, 74%);
+  /* headings */
+  --veryDarkBlue: hsl(208, 49%, 24%);
+
+  /* Neutral */
+
+  /* text */
+  --white: hsl(0, 0%, 100%);
+  /* footer text */
+  --grayishBlue: hsl(240, 2%, 79%);
+  /* body copy */
+  --veryDarkGrayishBlue: hsl(207, 13%, 34%);
+  /* footer background */
+  --veryDarkBlackBlue: hsl(240, 10%, 16%);
+
+  /* Gradient */
+
+  /* Background gradient - Intro/CTA mobile nav */
+  /*   --veryLightRed: #ff8f70;
+  --lightRed: #ff3d54; */
+
+  /* Background gradient - body */
+  --veryDarkGrayBlue: hsl(240, 33%, 1%);
+  --veryDarkDesaturatedBlue: hsl(237, 23%, 32%);
+}
+
+body {
+  font-family: "Overpass", "Ubuntu", sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+/* Fonts
+[Overpass] Weights: 300, 600
+[Ubuntu] Weights: 400, 500, 700 */
+
+/* Top menu */
+
+.container-top {
+  background-image: linear-gradient(var(--lightRed), var(--veryLightRed)),
+    url("./images/bg-pattern-intro.svg");
+  width: 100%;
+  background-size: cover;
+  padding: 2em;
+}
+
+.nav-bar {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+#menu-bar > ul,
+li {
+  list-style: none;
+}
+
+#menu-bar
+
+/* Footer */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
