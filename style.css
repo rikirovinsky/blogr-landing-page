@@ -51,11 +51,13 @@ body {
 /* Top menu */
 
 .container-top {
-  background-image: linear-gradient(var(--lightRed), var(--veryLightRed)),
-    url("./images/bg-pattern-intro.svg");
+  background: var(--lightRed);
+  background: url("./images/bg-pattern-intro.svg"),
+    linear-gradient(var(--lightRed), var(--veryLightRed));
+  background-size: auto 300%;
+  background-repeat: no-repeat;
+  background-position: 100px 100px;
   width: 100%;
-  background-size: cover;
-  padding: 2em;
 }
 
 .nav-bar {
